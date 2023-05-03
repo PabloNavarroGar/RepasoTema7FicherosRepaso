@@ -26,6 +26,7 @@ public class RepasoTema7FicherosParaExamen {
         // Fichero a crear. Ruta relativa a la carpeta raíz del proyecto
         String idFichero = "fichero.txt";
         // Crear el cuadro de diálogo para seleccionar la ubicación donde se guardará el archivo
+        //- Por si me intersa directamente crearlo para guardarlo en un sitio
         JFileChooser fileChooser = new JFileChooser();
         int seleccion = fileChooser.showSaveDialog(null);
         if (seleccion == JFileChooser.APPROVE_OPTION) {
